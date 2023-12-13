@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #434CCC;
+    color: white;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    #logo {
+        margin: 16px 135px;
+        font-family: DM Serif Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 48px;
+    }
+    .aboutrow {
+        margin-left: 534px;
+        margin-top: 28px;
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-weight: 700;
+            margin-left: 20px;
+        }
+    }
+    button{
+        margin: 16px 40px;
+        padding: 13px 56.5px 11px;
+        background-color: #434CCC;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.30);
+        color: white;
+    }
+}

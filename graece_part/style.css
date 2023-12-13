@@ -1,0 +1,188 @@
+.graece {
+  width: 1440px;
+  height: 1328px;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  background: rgba(67, 76, 204, 0.05);
+}
+.graece .gracecont {
+  width: 1170px;
+  height: 1328px;
+  flex-shrink: 0;
+  position: relative;
+}
+.graece .gracecont .aliqbox {
+  width: 100%;
+  height: auto;
+  margin-top: 63px;
+}
+.graece .gracecont .aliqbox h5 {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  /* H5 */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.graece .gracecont .aliqbox h2 {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  margin-top: 21px;
+  /* H2 */
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  /* 114.286% */
+}
+.graece .gracecont .aliqbox .quotext {
+  width: 570px;
+  height: 83px;
+  flex-shrink: 0;
+  color: var(--Text_Black, #000);
+  text-align: center;
+  margin: auto;
+  margin-top: 29px;
+  /* Text_Big */
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+}
+.graece .gracecont .imgbox {
+  width: 684px;
+  height: 456px;
+  flex-shrink: 0;
+  margin-top: 13px;
+  background: url(./clip-list-is-empty.png), 0px 0px/100% 100% no-repeat;
+}
+.graece .gracecont .imgbox h3 {
+  width: 323px;
+  height: 96px;
+  color: var(--Text_Black, #000);
+  /* H3 */
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  /* 120% */
+  position: relative;
+  top: 97px;
+  left: 600px;
+}
+.graece .gracecont .imgbox p:nth-child(2) {
+  width: 478px;
+  height: 75px;
+  flex-shrink: 0;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  position: relative;
+  left: 600px;
+  top: 96px;
+}
+.graece .gracecont .imgbox .learn {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  position: relative;
+  left: 600px;
+  top: 110px;
+}
+.graece .gracecont .imgbox .learn p {
+  width: 88px;
+  height: 24px;
+  color: var(--Text_Black, #000);
+  /* Text */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+.graece .gracecont .imgbox .learn svg {
+  width: 6px;
+  height: 11px;
+  flex-shrink: 0;
+}
+.graece .gracecont .lowbox {
+  height: auto;
+  width: auto;
+  margin-top: 121px;
+  padding-left: 100px;
+}
+.graece .gracecont .lowbox h3 {
+  width: 392px;
+  height: 96px;
+  color: var(--Text_Black, #000);
+  /* H3 */
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  /* 120% */
+}
+.graece .gracecont .lowbox p:nth-child(2) {
+  width: 470px;
+  height: 75px;
+  margin-top: 37px;
+  flex-shrink: 0;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+.graece .gracecont .lowbox .learnb {
+  margin-top: 37px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.graece .gracecont .lowbox .learnb p {
+  color: var(--Text_Black, #000);
+  /* Text */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+.graece .gracecont .lowbox .learnb svg {
+  width: 6px;
+  height: 11px;
+  flex-shrink: 0;
+  fill: #000;
+}
+.graece .gracecont .lowimg {
+  width: 684px;
+  height: 456px;
+  flex-shrink: 0;
+  background: url(clip-no-messages.png), 0px 0px/100% 100% no-repeat;
+  position: absolute;
+  right: 0px;
+  top: 755px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,74 @@
+header {
+    width: 1440px;
+    height: 768px;
+    flex-shrink: 0;
+    background: #434CCC;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        width: 1170px;
+        height: 512px;
+        flex-shrink: 0;
+
+        .navbar {
+            display: flex;
+            align-items: baseline;
+            margin-top: 28px;
+            justify-content: space-between;
+
+            #logo {
+                color: var(--Text_White, #FFF);
+
+                /* H3 */
+                font-family: DM Serif Display;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 48px;
+                /* 120% */
+
+            }
+
+            .aboutrow {
+                margin-left: 534px;
+                width: 324px;
+                height: 24px;
+                display: flex;
+                justify-content: space-between;
+                color: var(--Text_White, #FFF);
+                text-align: right;
+
+                /* Text */
+                font-family: DM Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+                /* 150% */
+
+            }
+
+            #signup {
+                width: 170px;
+                height: 48px;
+                flex-shrink: 0;
+                border-radius: 5px;
+                border: 1px solid rgba(255, 255, 255, 0.30);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                #sign {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: DM Sans;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    /* 150% */
+                }
+            }
+        }
+    }
+}

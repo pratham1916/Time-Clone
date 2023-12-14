@@ -71,21 +71,20 @@
 
 @media all and (max-width: 375px) {
   .nav {
-    width: 375px;
+    width: 100vw;
     height: auto;
+    border: 2px solid black;
   }
   .nav .navcont {
     width: 95%;
   }
   .nav .navcont .navbar #logo {
-    color: var(--Text_White, #FFF);
-    /* H4 */
+    color: white;
     font-family: DM Serif Display;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 133.333% */
   }
   .nav .navcont .navbar #ham {
     opacity: 1;

@@ -1,6 +1,3 @@
-body {
-    margin: 0px;
-}
 
 .graece {
     max-width: 100%;
@@ -82,7 +79,7 @@ body {
             height: 456px;
             flex-shrink: 0;
             margin-top: 13px;
-            background: url(./clip-list-is-empty.png), 0px 0px / 100% 100% no-repeat;
+            background: url(../images/clip-list-is-empty.png), 0px 0px / 100% 100% no-repeat;
 
             h3 {
                 width: 323px;
@@ -222,7 +219,7 @@ body {
             width: 684px;
             height: 456px;
             flex-shrink: 0;
-            background: url(clip-no-messages.png), 0px 0px / 100% 100% no-repeat;
+            background: url(../images/clip-no-messages.png), 0px 0px / 100% 100% no-repeat;
             position: absolute;
             right: 0px;
             top: 755px;
@@ -282,7 +279,7 @@ body {
                 flex-shrink: 0;
                 margin-left: -20px;
                 margin-top: -40px;
-                background: url(./clip-list-is-empty\ \(mq\).png), 0px 0px / 100% 100% no-repeat;
+                background: url(../images/clip-list-is-empty\ \(mq\).png), 0px 0px / 100% 100% no-repeat;
                 position: relative;
 
                 h3 {
@@ -328,7 +325,7 @@ body {
                 flex-shrink: 0;
                 margin-left: -33px;
                 margin-right: -67px;
-                background: url(./clip-no-messages\ \(mq\).png), 0px 0px / 100% 100% no-repeat;
+                background: url(../images/clip-no-messages\ \(mq\).png), 0px 0px / 100% 100% no-repeat;
             }
 
             .lowbox {

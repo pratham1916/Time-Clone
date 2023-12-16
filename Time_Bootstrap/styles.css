@@ -1,0 +1,32 @@
+.socicon{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.socib{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px; */
+    border-radius: 50%;
+    border: 2px solid #e90606;
+}
+
+.foobot{
+    padding: 20px 30px 15px 60px;
+}
+.footopics p{
+    color:  #5e6265;
+    font-size: small;
+    margin-top: -6px;
+}
+
+.fooend>p{
+    font-size: 11.5px;
+    columns: #99a0ab;
+    text-align: center;
+    margin-top: -6px;
+}

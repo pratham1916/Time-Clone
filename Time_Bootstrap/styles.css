@@ -3,19 +3,20 @@
     height: auto;
     width: auto;
     background-color: #0f151e;
-    padding: 50px 5px 40px 10px;
+    padding: 50px 0px 40px 0px;
 }
 
 .vidbox>h2 {
     color: white;
-    margin-left: 40px;
+    margin-left: 0px;
     font-family: 'Times New Roman', Times, serif Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .taylorvid {
     margin-top: 25px;
     height: 415px;
-    width: 56vw;
+    width: 54vw;
+    margin-left: -50px;
     background-image: url(https://cdn.jwplayer.com/v2/media/ZNHPu9Wg/poster.jpg?width=720);
     background-size: cover;
     background-position: center;
@@ -38,6 +39,7 @@
 .nextqueuebox {
     margin-top: 25px;
     color: white;
+    
 
 }
 
@@ -125,7 +127,7 @@
     color: #ebebeb;
     font-size: 17px;
     margin-left: 30px;
-=======
+}
 .pm{
     width: 85%;
     height: 800px;

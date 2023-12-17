@@ -221,3 +221,65 @@
     font-size: 17px;
     margin-left: 30px;
 }
+.pm{
+    width: 95%;
+    height: 800px;
+    /* border: 1px solid; */
+    display: flex;
+    margin-left: 20px;
+}
+.leftkum{
+    width: 70%;
+    height: 366px;
+/* border: 1px solid; */
+
+}
+.rightkus{
+    width: 28%;
+}
+.lc{
+    width: 40%;
+    height: 366px;
+    border: 1px solid;
+    background-color: black;
+    padding-left: 20px;
+   
+}
+.lc>h1{
+font-size: 30px;
+color: white;
+}
+.span11{
+    color: red;
+}
+.lc>p{
+    color: white;
+    font-size: 20px;
+}
+.imgma{
+    display: flex;
+}
+.cardma>p:nth-child(1){
+font-weight: 700;
+}
+.cardma>p:nth-child(2){
+    font-size: 12px;
+    font-weight: 500;
+    font-style: oblique;
+}
+.ll{
+    border: none;
+}
+.s22{
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 10px;
+    /* text-decoration: none; */
+}
+.pppp{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 35px;
+   margin-top: -19px;
+}

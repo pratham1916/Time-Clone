@@ -1,3 +1,30 @@
+
+.family{
+    width: 100%;
+    height: auto;
+    padding: 0px 20px 0px 20px;
+    
+}
+#line_ad{
+    height:3px;
+    border-width:0;
+    color:black;
+    background-color:black
+}
+ 
+.famheadh1{
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.finance{
+    width: 100%;
+    height: auto;
+    padding: 0px 20px 20px 20px;
+    margin-top: -10px;
+}
+
+
 .h1k{
     text-align: center;
     padding-bottom: 20px;

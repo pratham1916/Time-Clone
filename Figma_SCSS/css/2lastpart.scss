@@ -47,15 +47,17 @@
 
             .ei {
                 text-align: start;
-                margin-bottom: -20px;
+                font-size: xx-large;
+                // margin-bottom: 0px;
             }
 
             #eib {
                 padding: 10px 15px 10px 15px;
-                background-color: yellow;
+                background-color: #f1b505;
                 border: 1px solid rgba(255, 255, 255, 0.30);
                 border-radius: 5px;
                 margin-top: 50px;
+                color: white;
 
             }
         }
@@ -72,7 +74,7 @@
 
             background-size: cover;
 
-            width: 450px;
+            width: 530px;
             height: 412px;
             flex-shrink: 0;
             margin-left: 135px;
@@ -108,7 +110,7 @@
             background-image: url("https://s3-alpha-sig.figma.com/img/4922/55ca/d1b4aab682804a4e2f0dd3310147b256?Expires=1703462400&Signature=YwQjawHXXsazhzsHRqyZyyukN6gsyp0ZQUicePQXsr5EJsY2PNPmRbfhK7hJrOznYih7zGM5qjPBi0BzTD3JpWaHHISbmw6WyZ1wU4D4Ar7cJsjHC5SIXp6x6YhiQ7yYJGMzoyME3650TsWOAQIjFcCfaDz2yxDLAKpZFN~LCHw9LNc8YIEjJa13e55eQBC2bMQxWFio4ySo1jUCcFWfg~R9QH-eoM1-xevJjVzkIPbym2nqeGobWcpPSdMwb0r~PoBANZwIeewpJ0iT-FBAy8dTwwm8pyPzxoRoeIVrozmLyh3r02chZzLKqT~AX~2nYQXpmLFD1Scs4bstFPPgqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
             background-size: cover;
 
-            width: 450px;
+            width: 530px;
             height: 412px;
             flex-shrink: 0;
             margin-left: 30px;
@@ -134,7 +136,7 @@
                 margin-left: 93px;
                 margin-top: 20px;
                 padding: 8px;
-                background-color: rgb(22, 116, 139);
+                background-color: #428dfc ;
                 border: 0.5px solid white;
                 color: white;
             }
@@ -146,7 +148,7 @@
         height: 48px;
         flex-shrink: 0;
         margin-top: 40px;
-        margin-left: 510px;
+        margin-left: 600px;
         color: #434CCC;
         font-weight: bold;
     }

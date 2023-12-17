@@ -671,14 +671,15 @@ section {
 }
 .fastidii .acont2 div .ei {
   text-align: start;
-  margin-bottom: -20px;
+  font-size: xx-large;
 }
 .fastidii .acont2 div #eib {
   padding: 10px 15px 10px 15px;
-  background-color: yellow;
+  background-color: #f1b505;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 5px;
   margin-top: 50px;
+  color: white;
 }
 .fastidii .acont3 {
   display: flex;
@@ -688,7 +689,7 @@ section {
 .fastidii .acont3 #buddh {
   background-image: url("https://s3-alpha-sig.figma.com/img/8da9/4dad/a61136ce77656157b1b6e1e6936b1c64?Expires=1703462400&Signature=F2npmyJZ28z8-umSsKmT3Bx3Tm~jO~wqwvGE43dmbFZaHZdp5c0ldBsDLvnBMAslWsxjXC4-GS0rKp6KpeMYl16omVcgZcIh6xdWEFcxDCnmrPIjeERsw9g6OkkWeXBGTgBU0jXB8tnLzfoPIFcD6LcmKYjFXbN1Qs629CvP1TXyp1kbUDt4lgaTT5LNkIwOlyw0aY57jAnpTNLCM~O6MCjLG1mgmOk1LpLaXR5NuaQpEo0p6wGIFZo6KYS2vA4v7~hFuOrbIrOamXRUS5aJh3T35-ICGTjB2Ce-IL-VOyrUIKxPPyZ2ls3umhsq8fcM~oG613V6cFlmrRix8CJzkA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
   background-size: cover;
-  width: 450px;
+  width: 530px;
   height: 412px;
   flex-shrink: 0;
   margin-left: 135px;
@@ -717,7 +718,7 @@ section {
 .fastidii .acont3 #dog {
   background-image: url("https://s3-alpha-sig.figma.com/img/4922/55ca/d1b4aab682804a4e2f0dd3310147b256?Expires=1703462400&Signature=YwQjawHXXsazhzsHRqyZyyukN6gsyp0ZQUicePQXsr5EJsY2PNPmRbfhK7hJrOznYih7zGM5qjPBi0BzTD3JpWaHHISbmw6WyZ1wU4D4Ar7cJsjHC5SIXp6x6YhiQ7yYJGMzoyME3650TsWOAQIjFcCfaDz2yxDLAKpZFN~LCHw9LNc8YIEjJa13e55eQBC2bMQxWFio4ySo1jUCcFWfg~R9QH-eoM1-xevJjVzkIPbym2nqeGobWcpPSdMwb0r~PoBANZwIeewpJ0iT-FBAy8dTwwm8pyPzxoRoeIVrozmLyh3r02chZzLKqT~AX~2nYQXpmLFD1Scs4bstFPPgqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
   background-size: cover;
-  width: 450px;
+  width: 530px;
   height: 412px;
   flex-shrink: 0;
   margin-left: 30px;
@@ -739,7 +740,7 @@ section {
   margin-left: 93px;
   margin-top: 20px;
   padding: 8px;
-  background-color: rgb(22, 116, 139);
+  background-color: #428dfc;
   border: 0.5px solid white;
   color: white;
 }
@@ -748,7 +749,7 @@ section {
   height: 48px;
   flex-shrink: 0;
   margin-top: 40px;
-  margin-left: 510px;
+  margin-left: 600px;
   color: #434CCC;
   font-weight: bold;
 }

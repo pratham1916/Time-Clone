@@ -632,6 +632,62 @@ section {
     margin-top: -10px;
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-four {
+  display: flex;
+  width: 50%;
+  height: 656px;
+  background: #434CCC;
+  padding-left: 135px;
+  color: white;
+}
+.container-four .left h5 {
+   letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-top: 127px;
+}
+.container-four .left h2 {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-top: 21px;
+  margin-right: 75px;
+  width: 400px;
+}
+.container-four .left p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 400px;
+  height: 103px;
+  flex-shrink: 0;
+  margin-left: 0;
+  margin-top: 29px;
+}
+.container-four .left button {
+  background-color: #F1B505;
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 32px;
+}
+.container-four .right img {
+  width: 903px;
+  height: 657px;
+  margin-left: 23px;
+=======
 .fastidii {
   background-color: #f5f6fc;
   width: 100%;
@@ -793,11 +849,13 @@ section {
 }
 .fastidii .acont4 .watch #boxo #leftdiv p {
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+
   font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+
 }
 .fastidii .acont4 .watch #boxo #rightdiv {
   width: 260px;
@@ -818,6 +876,7 @@ section {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+
 }
 
 .hcontainer2 {

@@ -198,28 +198,31 @@ section {
   height: auto;
 }
 
-.container {
+.containerk {
   padding-bottom: 100px;
-  gap: 10px;
+  gap: 1px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
 }
 
-h2 {
+.h2k {
   font-size: 56px;
   text-align: center;
+  padding-top: 30px;
 }
 
-.p1 {
+.p1k {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.child1 {
-  width: 370px;
+.child1k {
+  width: 320px;
   height: 416px;
   margin-left: 30px;
   border-radius: 5px;
@@ -228,8 +231,8 @@ h2 {
   padding-left: 30px;
 }
 
-.child2 {
-  width: 370px;
+.child2k {
+  width: 320px;
   height: 416px;
   margin-left: 30px;
   border-radius: 5px;
@@ -238,8 +241,8 @@ h2 {
   padding-left: 30px;
 }
 
-.child3 {
-  width: 370px;
+.child3k {
+  width: 320px;
   height: 416px;
   margin-left: 30px;
   border-radius: 5px;
@@ -248,69 +251,80 @@ h2 {
   padding-left: 30px;
 }
 
-.child1 > img {
+.child1k > img {
   padding-top: 64px;
-  padding-left: 119px;
+  padding-left: 80px;
 }
 
-.child1 > p {
+.child1k > p {
+  margin-top: 25px;
+  margin-bottom: 20px;
   padding: 3px;
   font-size: 16px;
   color: rgb(164, 164, 164);
 }
 
-.child1 > h4 {
+.child1k > h4 {
+  margin-top: 25px;
   padding-top: 23px;
   font-size: 24px;
 }
 
-.child1 > h6 {
+.child1k > h6 {
   font-size: 16px;
   margin-top: 30px;
 }
 
-.child2 > img {
+.child2k > img {
   padding-top: 73px;
-  padding-left: 84px;
+  padding-left: 54px;
 }
 
-.child2 > p {
+.child2k > p {
+  margin-top: 25px;
+  margin-bottom: 20px;
   padding: 3px;
   font-size: 16px;
   color: rgb(164, 164, 164);
 }
 
-.child2 > h4 {
+.child2k > h4 {
+  margin-top: 25px;
   padding-top: 23px;
   font-size: 24px;
 }
 
-.child2 > h6 {
+.child2k > h6 {
   font-size: 16px;
+  margin-top: 30px;
 }
 
-.child3 > img {
-  padding-top: 58px;
-  padding-left: 121px;
+.child3k > img {
+  padding-top: 48px;
+  padding-left: 90px;
 }
 
-.child3 > p {
+.child3k > p {
+  margin-top: 25px;
+  margin-bottom: 20px;
   padding: 3px;
   font-size: 16px;
   color: rgb(164, 164, 164);
 }
 
-.child3 > h4 {
+.child3k > h4 {
+  margin-top: 25px;
   padding-top: 23px;
   font-size: 24px;
 }
 
-.child3 > h6 {
+.child3k > h6 {
   font-size: 16px;
+  margin-top: 30px;
 }
 
 @media all and (max-width: 500px) {
-  .container {
+  .containerk {
     grid-template-columns: repeat(1, 1fr);
   }
 }

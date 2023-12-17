@@ -198,28 +198,31 @@ section {
   height: auto;
 }
 
-.container {
+.containerk {
   padding-bottom: 100px;
-  gap: 10px;
+  gap: 1px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
 }
 
-h2 {
+.h2k {
   font-size: 56px;
   text-align: center;
+  padding-top: 30px;
 }
 
-.p1 {
+.p1k {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.child1 {
-  width: 370px;
+.child1k {
+  width: 320px;
   height: 416px;
   margin-left: 30px;
   border-radius: 5px;
@@ -228,8 +231,8 @@ h2 {
   padding-left: 30px;
 }
 
-.child2 {
-  width: 370px;
+.child2k {
+  width: 320px;
   height: 416px;
   margin-left: 30px;
   border-radius: 5px;
@@ -238,8 +241,8 @@ h2 {
   padding-left: 30px;
 }
 
-.child3 {
-  width: 370px;
+.child3k {
+  width: 320px;
   height: 416px;
   margin-left: 30px;
   border-radius: 5px;
@@ -248,69 +251,80 @@ h2 {
   padding-left: 30px;
 }
 
-.child1 > img {
+.child1k > img {
   padding-top: 64px;
-  padding-left: 119px;
+  padding-left: 80px;
 }
 
-.child1 > p {
+.child1k > p {
+  margin-top: 25px;
+  margin-bottom: 20px;
   padding: 3px;
   font-size: 16px;
   color: rgb(164, 164, 164);
 }
 
-.child1 > h4 {
+.child1k > h4 {
+  margin-top: 25px;
   padding-top: 23px;
   font-size: 24px;
 }
 
-.child1 > h6 {
+.child1k > h6 {
   font-size: 16px;
   margin-top: 30px;
 }
 
-.child2 > img {
+.child2k > img {
   padding-top: 73px;
-  padding-left: 84px;
+  padding-left: 54px;
 }
 
-.child2 > p {
+.child2k > p {
+  margin-top: 25px;
+  margin-bottom: 20px;
   padding: 3px;
   font-size: 16px;
   color: rgb(164, 164, 164);
 }
 
-.child2 > h4 {
+.child2k > h4 {
+  margin-top: 25px;
   padding-top: 23px;
   font-size: 24px;
 }
 
-.child2 > h6 {
+.child2k > h6 {
   font-size: 16px;
+  margin-top: 30px;
 }
 
-.child3 > img {
-  padding-top: 58px;
-  padding-left: 121px;
+.child3k > img {
+  padding-top: 48px;
+  padding-left: 90px;
 }
 
-.child3 > p {
+.child3k > p {
+  margin-top: 25px;
+  margin-bottom: 20px;
   padding: 3px;
   font-size: 16px;
   color: rgb(164, 164, 164);
 }
 
-.child3 > h4 {
+.child3k > h4 {
+  margin-top: 25px;
   padding-top: 23px;
   font-size: 24px;
 }
 
-.child3 > h6 {
+.child3k > h6 {
   font-size: 16px;
+  margin-top: 30px;
 }
 
 @media all and (max-width: 500px) {
-  .container {
+  .containerk {
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -618,6 +632,251 @@ h2 {
     margin-top: -10px;
   }
 }
+.fastidii {
+  background-color: #f5f6fc;
+  width: 100%;
+  overflow-x: hidden;
+}
+.fastidii .acont1 {
+  width: 100%;
+  height: 768px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+.fastidii .acont1 #t1 {
+  padding-top: 79px;
+}
+.fastidii .acont1 #t3 {
+  padding-top: 25px;
+}
+.fastidii .acont1 #t2 {
+  padding-top: 49px;
+}
+.fastidii .acont2 {
+  width: 80%;
+  height: 512px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/512f/235a/326a3b7c2026ef8143dfae1e7536d8e5?Expires=1703462400&Signature=ccwBN8~HSa92xElAYkfz4HvugTr-u-om8du-b-Qo57mJeT-TnCWZdH0BnIpiLuYCpPHEYVK41Hge18u5jRJnivx7jc-Y31oI-FWmoJyRm7hDU0RsmgQLfoHjNSL8gEax7iRaxHYT1KeoAPXDU2xtYqHeMbkXD0OjeuP-tJSaSuaVh6ZxAgaXRj5coZGI2uXAvhj8Z8RJHhsxyHIr0c4gw4fUrFvQIAXbWRn3VIO6NGE7ofe5gA55GogsAptWMO4YGnTQrOWn0gxmOrMAFSVt-~BHmZYIkTs90TZTqxVBKyyzzSgiOCkGPubnE~OpYATC9ZAb9~xYukzPbBG1NxmUVA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  margin: 130px;
+  margin-top: -386px;
+  color: white;
+  background-size: cover;
+}
+.fastidii .acont2 div {
+  margin-left: 100px;
+  padding-top: 111px;
+}
+.fastidii .acont2 div #commune {
+  color: var(--text-white-50, rgba(255, 255, 255, 0.5));
+}
+.fastidii .acont2 div .ei {
+  text-align: start;
+  font-size: xx-large;
+}
+.fastidii .acont2 div #eib {
+  padding: 10px 15px 10px 15px;
+  background-color: #f1b505;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  margin-top: 50px;
+  color: white;
+}
+.fastidii .acont3 {
+  display: flex;
+  width: 100%;
+  height: 420px;
+}
+.fastidii .acont3 #buddh {
+  background-image: url("https://s3-alpha-sig.figma.com/img/8da9/4dad/a61136ce77656157b1b6e1e6936b1c64?Expires=1703462400&Signature=F2npmyJZ28z8-umSsKmT3Bx3Tm~jO~wqwvGE43dmbFZaHZdp5c0ldBsDLvnBMAslWsxjXC4-GS0rKp6KpeMYl16omVcgZcIh6xdWEFcxDCnmrPIjeERsw9g6OkkWeXBGTgBU0jXB8tnLzfoPIFcD6LcmKYjFXbN1Qs629CvP1TXyp1kbUDt4lgaTT5LNkIwOlyw0aY57jAnpTNLCM~O6MCjLG1mgmOk1LpLaXR5NuaQpEo0p6wGIFZo6KYS2vA4v7~hFuOrbIrOamXRUS5aJh3T35-ICGTjB2Ce-IL-VOyrUIKxPPyZ2ls3umhsq8fcM~oG613V6cFlmrRix8CJzkA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  background-size: cover;
+  width: 530px;
+  height: 412px;
+  flex-shrink: 0;
+  margin-left: 135px;
+  border-radius: 10px;
+}
+.fastidii .acont3 #buddh #errubs {
+  margin-top: 80px;
+  margin-left: 80px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.fastidii .acont3 #buddh .cum {
+  margin-left: 80px;
+  color: white;
+}
+.fastidii .acont3 #buddh .fa {
+  padding-top: 30px;
+}
+.fastidii .acont3 #buddh button {
+  margin-left: 93px;
+  margin-top: 20px;
+  padding: 8px;
+  background-color: #e94a47;
+  border: 0.5px solid white;
+  color: white;
+}
+.fastidii .acont3 #dog {
+  background-image: url("https://s3-alpha-sig.figma.com/img/4922/55ca/d1b4aab682804a4e2f0dd3310147b256?Expires=1703462400&Signature=YwQjawHXXsazhzsHRqyZyyukN6gsyp0ZQUicePQXsr5EJsY2PNPmRbfhK7hJrOznYih7zGM5qjPBi0BzTD3JpWaHHISbmw6WyZ1wU4D4Ar7cJsjHC5SIXp6x6YhiQ7yYJGMzoyME3650TsWOAQIjFcCfaDz2yxDLAKpZFN~LCHw9LNc8YIEjJa13e55eQBC2bMQxWFio4ySo1jUCcFWfg~R9QH-eoM1-xevJjVzkIPbym2nqeGobWcpPSdMwb0r~PoBANZwIeewpJ0iT-FBAy8dTwwm8pyPzxoRoeIVrozmLyh3r02chZzLKqT~AX~2nYQXpmLFD1Scs4bstFPPgqA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  background-size: cover;
+  width: 530px;
+  height: 412px;
+  flex-shrink: 0;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.fastidii .acont3 #dog #scrip {
+  margin-top: 80px;
+  margin-left: 80px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.fastidii .acont3 #dog .dicam {
+  margin-left: 80px;
+  color: white;
+}
+.fastidii .acont3 #dog .da {
+  padding-top: 30px;
+}
+.fastidii .acont3 #dog .fa-solid {
+  margin-left: 93px;
+  margin-top: 20px;
+  padding: 8px;
+  background-color: #428dfc;
+  border: 0.5px solid white;
+  color: white;
+}
+.fastidii #bt1 {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  margin-top: 40px;
+  margin-left: 600px;
+  color: #434CCC;
+  font-weight: bold;
+}
+.fastidii .acont4 {
+  display: flex;
+  padding-bottom: 100px;
+}
+.fastidii .acont4 .man {
+  height: 400px;
+  width: 500px;
+  background-size: cover;
+  background-image: url("https://s3-alpha-sig.figma.com/img/bd52/44af/0ad1fdc2d78f9b51d34d02e2322b719e?Expires=1703462400&Signature=FGMpb16PYsK~Nw22dKs1u0tkWOm2w7jUjwA1Gw4d-dN5TLaC0JSEK1pEgFIhdvxmDm-5hRAWuWB5UruPZNfZVtnFF3L8RxBu4doqKFQRzbjNf77h1pShSLDrmxtZ~9jwgWmESaWMmZYZvRUK1sBSFgX1kkM9yEEfvh795DgcA3MoaddfYm3RhJzt4DtQkmZGT7B2xWfSSxJ-Shuary2s7d1wiedyBDHgg8CKBVq7cDF-zl09zyrz5yP3KIlP19jo3NsRqU4BtGxwXBsRkYOWkj7Ae~BCIfU6vS1~J92J3zzwLC4PrYS~vj7RVK3q72kF7AZ3FJpOQxpTczbaRKK3dw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+}
+.fastidii .acont4 .watch {
+  margin-top: 70px;
+}
+.fastidii .acont4 .watch #texo {
+  margin-left: 60px;
+  text-align: start;
+}
+.fastidii .acont4 .watch #texo .si {
+  font-size: 40px;
+  font-weight: bold;
+}
+.fastidii .acont4 .watch #boxo {
+  margin-left: 30px;
+  display: flex;
+  margin-top: 30px;
+}
+.fastidii .acont4 .watch #boxo #leftdiv {
+  width: 260px;
+  height: 145px;
+}
+.fastidii .acont4 .watch #boxo #leftdiv h4 {
+  color: var(--Text_Black, #000);
+  padding-top: 15px;
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.fastidii .acont4 .watch #boxo #leftdiv p {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.fastidii .acont4 .watch #boxo #rightdiv {
+  width: 260px;
+  height: 145px;
+}
+.fastidii .acont4 .watch #boxo #rightdiv h4 {
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.fastidii .acont4 .watch #boxo #rightdiv p {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.container-four {
+  display: flex;
+  width: 50%;
+  height: 656px;
+  background: #434CCC;
+  padding-left: 135px;
+  color: white;
+}
+.container-four .left h5 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-top: 127px;
+}
+.container-four .left h2 {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin-top: 21px;
+  margin-right: 75px;
+  width: 400px;
+}
+.container-four .left p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 400px;
+  height: 103px;
+  flex-shrink: 0;
+  margin-left: 0;
+  margin-top: 29px;
+}
+.container-four .left button {
+  background-color: #F1B505;
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 32px;
+}
+.container-four .right img {
+  width: 680px;
+  height: 657px;
+  margin-left: 73px;
+}
+
 .hcontainer2 {
   background-color: rgba(67, 76, 204, 0.0515);
   width: 100%;

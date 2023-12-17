@@ -1,12 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .container-four{
     display: flex;
     width: 50%;
     height: 656px;
     background: #434CCC;
+    
     padding-left: 135px;
     color: white;
     .left{
@@ -55,9 +53,9 @@
     }
     .right{
         img{
-            width:903px;
+            width:680px;
             height: 657px;
-            margin-left: 23px;
+            margin-left: 73px;
         }
     }
 }

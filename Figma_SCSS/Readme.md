@@ -10,8 +10,8 @@
 <ul>Contributors</ul>
 <h2>Page Preview</h2>
 
-<img src="image/f1.png" alt="image"><br>
-<img src="image/f2.png" alt="image">
+<img src="images/f1.png" alt="image"><br>
+<img src="images/f2.png" alt="image">
 <br>
 <h2>Features</h2>
 

@@ -8,10 +8,6 @@ This repository is dedicated to a web project that meticulously recreates a page
 ![Page Preview 3](/Preview/preview-3.png)
 ![Page Preview 4](/Preview/preview-4.png)
 ![Page Preview 5](/Preview/preview-5.png)
-![Page Preview 6](/Preview/preview-6.png)
-![Page Preview 7](/Preview/preview-7.png)
-![Page Preview 8](/Preview/preview-8.png)
-
 
 ## Live Deployed Link
 Experience our TIME page clone live at [https://time-clone.netlify.app/](https://time-clone.netlify.app/)

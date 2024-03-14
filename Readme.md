@@ -3,8 +3,12 @@
 This repository is dedicated to a web project that meticulously recreates a page from the TIMES website. Developed during a construct week, this project aims to mimic the design and layout of a specific page from TIMES, utilizing a blend of modern web technologies including HTML, CSS, Sass, and Bootstrap. The primary goal is to achieve a close replica of the original design, showcasing front-end development proficiency.
 
 ## Project Preview
-![Page Preview 1](image/r2.png)
-![Page Preview 2](image/r1.png)
+![Page Preview 1](/Preview/preview-1.png)
+![Page Preview 2](/Preview/preview-2.png)
+![Page Preview 3](/Preview/preview-3.png)
+![Page Preview 4](/Preview/preview-4.png)
+![Page Preview 5](/Preview/preview-5.png)
+
 
 ## Live Deployed Link
 Experience our TIME page clone live at [https://time-clone.netlify.app/](https://time-clone.netlify.app/)
